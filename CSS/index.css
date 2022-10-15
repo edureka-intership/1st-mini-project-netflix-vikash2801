@@ -9,6 +9,9 @@
     display: block; 
     overflow: hidden; 
 }
+.navbar{
+    display: none;
+}
 .header-content2{
     display: flex;
     justify-content: space-between;
@@ -132,35 +135,33 @@ hr{
     height: 470px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .item-txt{
     width: 50%;
 }
 .item-img{
     position: relative;
-}
-.item-watch1{
-    width:500px;
-    height:325px;
+    width: 40%;
 }
 .ad-img-dim{
-    width: 500px;
-    height: 325px;
+    width: 100%;
+    /* height: 325px; */
     z-index: 100;
 }
 .item-watch1{
     position: absolute;
     top: 21%;
     right: 14%;
-    height: 178px;
-    width: 364px;
+    height: 54%;
+    width: 73%;
 }
 .item-watch2{
     position: absolute;
     top: 11%;
     right: 20%;
-    height: 134px;
-    width: 306px;
+    height: 41%;
+    width: 61%;
 }
 .video-item{
     width: 100%;
@@ -277,3 +278,48 @@ hr{
     margin-left: 28px;
 }
 
+@media (max-width: 1050px){
+    
+    #brand-left{
+        width: 70%;
+    }
+    #brand-right{
+        width: 30%;
+    }
+    .frntText h1{
+        font-size: 2rem;
+    }
+    .frntText h4{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 550px){
+    .item-txt h1{
+        font-size: 2rem;
+    }
+    .item-txt h4{
+        font-size: 1rem;
+    }
+    #brand-left{
+        width: 70%;
+    }
+    #brand-right{
+        width: 30%;
+    }
+    .langDropDiv button{
+        font-size: 0.6rem;
+    }
+    .signOutDiv button{
+        font-size: 0.4rem;
+    }
+    .frntText h1{
+        font-size: 1rem;
+    }
+    .frntText h4{
+        font-size: 0.5rem;
+    }
+    .frntText h5{
+        font-size: 0.6rem;
+    }
+}
