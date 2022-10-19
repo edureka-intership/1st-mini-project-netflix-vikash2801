@@ -235,7 +235,7 @@ hr{
     padding: 50px 0;
 }
 .content1{
-    margin-left: 75px;
+    margin-left: 5%;
 }
 .content1 h5{
     color: gray;
@@ -254,7 +254,7 @@ hr{
     width: 100%;
 }
 .content2 .list{
-    margin: 10px 50px;
+    margin: 10px 2%;
 }
 .content2 ul{
     list-style: none;
@@ -271,7 +271,7 @@ hr{
     text-decoration: underline;
 }
 .content3{
-    margin-left: 55px;
+    margin-left: 2%;
 }
 .copywrite{
     font-size: 13px;
